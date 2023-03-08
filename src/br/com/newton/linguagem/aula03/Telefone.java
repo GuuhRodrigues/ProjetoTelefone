@@ -13,13 +13,19 @@ public class Telefone {
         System.out.println("Tocando " + estiloMusica);
     }
 
+    //public void Ligar(Telefone cor){
+        //if (cor.cor == "Preto")
+            //System.out.println("Ligando para o telefone preto de João" );
+        //else
+            //System.out.println("Telefone indisponível(O telefone não é preto)");
+    //}
     public void Ligar(Contato cont){
-        if (this.cor.equals("Preto"))
+        if (cont.nome == "Juliana"){
             System.out.println("Ligando para " + cont.nome);
+        }
         else
-            System.out.println("Telefone indisponível");
+            System.out.println("Telefone Indisponível(O nome do contato não é juliana)");
     }
-
 
 
 
