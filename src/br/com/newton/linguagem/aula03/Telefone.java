@@ -10,7 +10,10 @@ public class Telefone {
     Contato c1;
 
     public void Tocar(String estiloMusica){
-        System.out.println("Tocando " + estiloMusica);
+        if (estiloMusica == "Pagode")
+            System.out.println("Só tocamos pagode" + estiloMusica);
+        else
+            System.out.println("Estilo de música indisponível");
     }
 
     //public void Ligar(Telefone cor){
