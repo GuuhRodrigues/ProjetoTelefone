@@ -17,7 +17,7 @@ public class Agenda {
         cont2.nome = "João";
         cont2.numero = "318989952";
 
-        cont3.nome = "Carmen";
+        cont3.nome = "Juliana";
         cont3.numero = "3189871147";
 
         tel.marca = "iPhone";
@@ -33,7 +33,9 @@ public class Agenda {
         tel3.c1 = cont3;
 
         tel.Tocar("Pagode");
-        tel2.Ligar(cont3);
+        //tel2.Ligar(tel3);
+        tel.Ligar(cont3);
+
 
         System.out.println(tel.c1.nome + " " + tel.c1.numero + " " + tel.cor + " " + tel.marca);
         System.out.println(tel2.c1.nome + " "+ tel2.c1.numero + " " + tel2.cor + " " + tel2.marca);
