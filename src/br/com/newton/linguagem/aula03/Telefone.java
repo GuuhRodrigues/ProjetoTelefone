@@ -6,12 +6,11 @@ public class Telefone {
 
     public String cor;
 
-
     Contato c1;
 
     public void Tocar(String estiloMusica){
         if (estiloMusica == "Pagode")
-            System.out.println("Só tocamos pagode" + estiloMusica);
+            System.out.println("Só tocamos pagode");
         else
             System.out.println("Estilo de música indisponível");
     }
